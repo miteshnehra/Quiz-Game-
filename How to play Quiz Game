@@ -1,0 +1,31 @@
+# Enhanced Quiz Game
+
+This is a simple **Quiz Game** implemented in C. The game presents multiple-choice questions to the user, evaluates their answers, and provides feedback. At the end of the quiz, the user's score is displayed.
+
+## Features
+
+- **Randomized Questions**: Questions are selected randomly to ensure variety.
+- **Multiple-Choice Format**: Each question has four options, and the user selects the correct one.
+- **Feedback**: The program informs the user whether their answer is correct or incorrect, and displays the correct answer if they are wrong.
+- **Score Tracking**: The program keeps track of the user's score and displays it at the end of the quiz.
+
+## How It Works
+
+1. The program initializes a set of predefined questions.
+2. Questions are randomly selected and displayed to the user.
+3. The user inputs their answer (1-4).
+4. The program checks the answer and provides feedback.
+5. After all questions are answered, the final score is displayed.
+
+## Prerequisites
+
+- A C compiler (e.g., GCC)
+- Basic knowledge of C programming
+
+## How to Compile and Run
+
+1. Clone this repository or download the source code.
+2. Open a terminal and navigate to the project directory.
+3. Compile the code using GCC:
+   ```sh
+   gcc quiz_game.c -o QuizGame
